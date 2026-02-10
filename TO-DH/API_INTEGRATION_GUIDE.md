@@ -60,8 +60,6 @@ GET https://[BC-SERVER-URL]/[BC-INSTANCE]/api/v2.0/companies
 |-------|-----------|-------------|
 | 0 | Open | Open |
 | 1 | Pending Approval | Pending approval |
-| 2 | Budget Checked | Budget checked |
-| 3 | Accountant Checked | Accountant checked |
 | 4 | Approved | Approved |
 | 5 | Cancelled | Cancelled |
 
