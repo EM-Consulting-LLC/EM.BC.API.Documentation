@@ -9,7 +9,7 @@ Common operations:
 
 > Notes
 > - `systemId`: is a GUID. Can be stored in String/Text field.
-> - `Environment`: Sandbox20260119 for test.
+> - `Environment`: DH_INT for test.
 > - `Company`: "*MCS International LLC (MCSI_LIVE)*"  *(058eaa30-e178-f011-8eef-000d3aa3bbd3)*
 > - `API category`: *EMC/digitalIntegration/v1.0*
 > - `Table name / Entity`: *vendorBankAccounts*

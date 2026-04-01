@@ -10,11 +10,11 @@ Common operations:
 
 > Notes  
 > - `systemId`: is a GUID. Can be stored in String/Text field.
-> - `Environment`: Sandbox20260212 for test.
+> - `Environment`: DH_INT for test.
 > - `Company`: "*MCS International LLC (MCSI_LIVE)*"  *(058eaa30-e178-f011-8eef-000d3aa3bbd3)*
 > - `API category` : *emconsulting/digitalIntegration/v1.0*
-> - `Table name`: *contractDocumentAttachments*
-> - `Entity Set Name`: *contractDocumentAttachments*
+> - `Table name`: *vendorCustomerContracts*
+> - `Entity Set Name`: *vendorCustomerContracts*
 > - `Scope`: Document attachments for **Vendor/Customer Contracts only**
 
 > - `Flow Trigger` : *Created* or *modified*
@@ -62,15 +62,7 @@ Common operations:
 
 ## 3) Document Attachment API Fields
 
-| API Field | BC Field | Type | Description | Required |
-|---|---|---|---|---|
-| `rowId` | SystemId | GUID | System ID - unique identifier | Yes (Auto) |
-| `tableId` | Table ID | Integer | Always 81604 (Vendor/Customer Contract) | Yes |
-| `contractNumber` | No. | Code[20] | Contract number the attachment is linked to | Yes |
-| `fileName` | File Name | Text[250] | File name without extension | Yes |
-| `fileExtension` | File Extension | Text[30] | File extension (pdf, docx, xlsx, etc.) | Yes |
-| `base64Content` | Document Reference ID | Media | Base64-encoded file content | Yes (Insert only) |
-
+Document Attachment not needed. Links are needed
 ---
 
 
@@ -126,7 +118,7 @@ Common operations:
 
 | Setting | Value |
 |---|---|
-| **Environment** | Sandbox20260212 |
+| **Environment** | DH_INT or Production |
 | **Company** | MCS International LLC (MCSI_LIVE) |
 | **Publisher** | EMC |
 | **API Group** | digitalIntegration |
@@ -136,4 +128,4 @@ Common operations:
 
 **Power Automate Flow:** [View Contract Management Flow](https://make.powerautomate.com/environments/default-b68b6df0-24c3-40c7-8935-e80a48efc7c1/flows/c24dad81-e4d9-deea-c262-97523e02d016/details)
 
-**Last Updated:** March 4, 2026
+**Last Updated:** April 1, 2026

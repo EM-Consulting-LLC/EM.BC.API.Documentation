@@ -121,7 +121,7 @@ GET .../paymentRequestStatuses?$orderby=lastModifiedDateTime desc
 **Trigger:** When a record is modified (V3)
 
 **Business Central Connection Parameters:**
-- **Environment:** `Sand20260127` *(Sandbox/Test Environment)*
+- **Environment:** `DH_INT` *(Sandbox/Test Environment)*
 - **Company:** `MCS International LLC (MCSI_LIVE)`
 - **API Category:** `paymentrequest`
 - **Table Name:** `paymentRequestStatuses`
